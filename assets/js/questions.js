@@ -34,13 +34,13 @@ const quizQuestions = [
 ];
 
 const winImages = [
-  "../assets/images/win1.webp",
-  "../assets/images/win2.webp",
-  "../assets/images/win3.webp"
+  "./assets/images/win1.webp",
+  "./assets/images/win2.webp",
+  "./assets/images/win3.webp"
 ];
 
 const looseImages = [
-  "../assets/images/loose1.webp",
-  "../assets/images/loose2.webp",
-  "../assets/images/loose3.gif"
+  "./assets/images/loose1.webp",
+  "./assets/images/loose2.webp",
+  "./assets/images/loose3.gif"
 ];

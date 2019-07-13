@@ -41,8 +41,8 @@ function countDown() {
 
 //Display questions and choices together in the browser
 function loadQuestion() {
-  counter = 5;
-  timer = setInterval(countDown, 1000);
+  counter = 1000;
+  timer = setInterval(countDown, 50000);
 
   const question = quizQuestions[currentQuestion].questions;
   const choices = quizQuestions[currentQuestion].choices;
