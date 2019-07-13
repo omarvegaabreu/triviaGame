@@ -1,6 +1,6 @@
 //Initial values
 
-let counter = 0;
+let counter = 30;
 let currentQuestion = 0;
 let score = 0;
 let lost = 0;
@@ -41,8 +41,8 @@ function countDown() {
 
 //Display questions and choices together in the browser
 function loadQuestion() {
-  counter = 1000;
-  timer = setInterval(countDown, 50000);
+  counter = 30;
+  timer = setInterval(countDown, 1000);
 
   const question = quizQuestions[currentQuestion].questions;
   const choices = quizQuestions[currentQuestion].choices;
@@ -73,12 +73,12 @@ $(document).on("click", ".choice", function() {
     score++;
     console.log("wins");
     preloadImage("win");
-    setTimeout(nextQuestion, 2 * 1000);
+    setTimeout(nextQuestion, 3 * 1000);
   } else {
     lost++;
     console.log("lost");
     preloadImage("lost");
-    setTimeout(nextQuestion, 2 * 1000);
+    setTimeout(nextQuestion, 3 * 1000);
   }
 
   console.log("yeah", selectAnswer);
@@ -96,7 +96,7 @@ function displayResult() {
 }
 
 $(document).on("click", "#reset", function() {
-  counter = 0;
+  counter = 30;
   currentQuestion = 0;
   score = 0;
   lost = 0;
