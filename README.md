@@ -1,6 +1,8 @@
 # triviaGame
 
-In this assignment, I created a Trivia game using JavaScript for the logic and jQuery to manipulate HTML.\* A trivia form with multiple choice or true/false options.
+url: https://omarvegaabreu.github.io/triviaGame/
+
+I created a Trivia game using JavaScript for the logic and jQuery to manipulate HTML.\* A trivia form with multiple choice or true/false options.
 
 #Rules of play
 
@@ -10,16 +12,8 @@ In this assignment, I created a Trivia game using JavaScript for the logic and j
 
 - The player pick more than one answer per question.
 
-- Please pay attention to the counter.
+### Techonologies used:
 
-# JavaScript Assignment 2
-
-Please excuse if this readme is a little verbose, however I is an excersie to continue to learn MVC.
-
-1. Inside of the `TriviaGame` folder called `index.html`, is where all the HTML mark up is laid out.
-
-2. The folder `assets`, create three folders: `css`, `javascript`, `images`
-
-   - In the `css` folder, the `style.css` contains the css code.
-   - In the `javascript` folder, the `app.js` file; contains all the JavaScript and jQuery code.
-   - In the `images` folder, all the images are saved.
+-javaScript
+-HTML
+-CSS
