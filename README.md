@@ -2,6 +2,8 @@
 
 url: https://omarvegaabreu.github.io/triviaGame/
 
+![](assets/images/triviaGameHome.jpg)
+
 I created a Trivia game using JavaScript for the logic and jQuery to manipulate HTML.\* A trivia form with multiple choice or true/false options.
 
 #Rules of play
